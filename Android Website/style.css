@@ -1,0 +1,167 @@
+
+
+
+body {
+    background: url(https://c4.wallpaperflare.com/wallpaper/104/151/773/material-miui-9-stock-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+
+li{
+    display: inline-block;
+    float: right;
+    padding: 20px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+
+a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a:hover {
+    color: yellowgreen;
+}
+
+.logo {
+    width: 50px;
+    height: 100px;
+    margin-left: 50px;
+}
+
+
+.info {
+    max-width: 700px;
+}
+
+.imgbox{
+    margin-right: 100px;
+}
+
+
+.registration {
+    background-color:lightseagreen;
+    border-radius: 30px;
+    margin-right: 150px;
+    padding: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    float: right;
+}
+
+hr{
+    margin-top: 20px;
+    width: 80%;
+}
+
+.or {
+    color: #fff;
+    width: 30px;
+    margin: -19px auto 10px;
+}
+
+
+.email-class{
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+    text-align: center;
+    border-radius: 30px;
+    padding-left: 30px;
+    border-color: #fff;
+}
+
+.chk{
+    display: inline;
+    padding: 20px;
+}
+
+.top{
+    margin-top: 20px;
+}
+
+p {
+    justify-content: space-between;
+    margin: 20px;
+    color: #fff;
+    font-size: 1em;
+}
+
+h1 {
+    font-size: 3em;
+    color: #fff;
+    margin-left: 20px;
+}
+
+button{
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 50px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border-width: 0ch;
+    margin-top: 20px;
+    margin-left: 20px;
+    letter-spacing: 0.5px;
+}
+
+button:hover {
+    background-color: yellowgreen;
+}
+
+
+
+.SwiperSlide {
+    margin-top: 10px;
+    padding-bottom: 0px;
+}
+
+
+
+
+@media screen and (max-width: 700px){
+    .registration{
+        width: 90%;
+    }
+   form {
+       padding: 30px;
+   }
+   .top{
+        display: block;
+   }
+   h1{
+       font-size: 20px;
+   }
+   .info{
+       width: 91%;
+   }
+}
+
+@media screen and (max-width: 400px){
+    .info{
+        width: 91%;
+    }
+    .registration{
+        width: 91%;
+    }
+}
+
+
+
